@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 """
-Hindi Voice Assistant v5 — Optimized for Raspberry Pi
-─────────────────────────────────────────────────────────────────────
-Optimizations over v5:
+Hindi Voice Assistant - 
   1. Parallel model warm-up (VOSK + TTS + Ollama loaded concurrently)
   2. LLM intent call is async — keyword pre-filter runs instantly,
      LLM result merges in before routing
